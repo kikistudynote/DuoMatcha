@@ -9,7 +9,7 @@ const products = [
     {id:'c4',name:'Coconut Coffee',price:18000,category:'coffee',color:'white',images:['image/CoconutCoffee.png','image/CoconutCoffee.png'],desc:'Espresso dan ekstrak kelapa.'},
     {id:'c5',name:'Gula Aren Coffee',price:15000,category:'coffee',color:'white',images:['image/GulaArenCoffe.png','image/GulaArenCoffe.png'],desc:'Kopi susu gula aren.'},
     {id:'c6',name:'Hazelnut Coffee',price:18000,category:'coffee',color:'white',images:['image/HazelnutCoffee.png','image/HazelnutCoffee.png'],desc:'Espresso dengan sirup hazelnut.'},
-    {id:'c7',name:'Kopi Susu (Kopsu)',price:12000,category:'coffee',color:'white',images:['image/Kopsu.png','image/Kopsu.png'],desc:'Kopi susu klasik.'},
+    {id:'c7',name:'Kopi Susu (Kopsu)',price:13000,category:'coffee',color:'white',images:['image/Kopsu.png','image/Kopsu.png'],desc:'Kopi susu klasik.'},
     {id:'c8',name:'Kopsu Regal',price:16000,category:'coffee',color:'white',images:['image/KopsuRegal.png','image/KopsuRegal.png'],desc:'Kopi susu dengan topping Regal.'},
     {id:'c9',name:'Vanilla Coffee',price:18000,category:'coffee',color:'white',images:['image/VanillaCoffee.png','image/VanillaCoffee.png'],desc:'Kopi dengan sirup vanilla.'},
     {id:'m1',name:'Blueberry Matcha',price:20000,category:'matcha',color:'green',images:['image/BlueberryMatcha.png','image/BlueberryMatcha.png'],desc:'Matcha dengan lapisan blueberry.'},
