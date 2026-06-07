@@ -1,0 +1,46 @@
+/* Custom styles for DuoMatcha */
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #fafdfa;
+}
+
+h1, h2, h3, .font-display {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Scrollbar kustom */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f4f8f4;
+}
+::-webkit-scrollbar-thumb {
+    background: #8fbc8f;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #689468;
+}
+
+/* Rating bintang interaktif */
+.rating-star {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.rating-star:hover {
+    transform: scale(1.1);
+}
+
+/* Perbaikan modal carousel: paksa gambar memenuhi container */
+#modal-image-carousel img {
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+/* Pastikan gambar tidak overflow */
+img {
+    max-width: 100%;
+    height: auto;
+}
